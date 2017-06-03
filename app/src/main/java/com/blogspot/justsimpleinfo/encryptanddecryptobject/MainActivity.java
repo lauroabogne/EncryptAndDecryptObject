@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.e("byte size",ENCRYPTION_PASSWORD.getBytes()+"");
         mUserNameEditText = (EditText) this.findViewById(R.id.username_edittext);
         mPasswordEditText = (EditText) this.findViewById(R.id.password_edittext);
 
